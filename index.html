@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" manifest="index_html.appcache">
+<head>
+    <!--meta基本标签-->
+    <!--声明文档使用的字符编码-->
+    <meta charset="UTF-8">
+    <!--指示IE以目前可用的最高模式显示内容-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--指示IE使用 <!DOCTYPE> 指令确定如何呈现内容。标准模式指令以IE9 标准模式显示-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Emulate IE9" />
+
+    <!--SEO优化-->
+    <!--页面描述-->
+    <meta name="description" content="微视频，微电影，短视频" />
+    <!--页面关键字-->
+    <meta name="keywords" content="微视频，微电影，短视频"/>
+    <!--定义网页作者-->
+    <meta name="author" content="ZZH"/>
+    <title>频道页面</title>
+    <!--添加 favicon icon-->
+    <link rel="shortcut icon" type="image/ico" href="./img/favicon.ico" />
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel='subresource' href='./css/index.css'>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/channel.css">
+</head>
+<body>
+<!--顶部导航 start-->
+<div class="bgColor">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="topBarText">
+                    <li><a href="#">场库</a></li>
+                    <li><a href="#">新片场</a></li>
+                    <li><a href="#">新片场影业</a></li>
+                    <li><a href="#">新片场短视频</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--顶部导航 end-->
+
+<!--主导航栏  start-->
+<div id="maiBgColor" class="maiBgColor">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <ul class="topBarText">
+                    <li><a href="#"><img src="./img/logo.png" class="logo" alt=""></a></li>
+                    <li><a href="./index.html">首页</a></li>
+                    <li><a href="./channel.html">频道</a></li>
+                    <li><a href="#">自制</a></li>
+                    <li><a href="#">幕后</a></li>
+                    <li><a href="#">专题</a></li>
+                    <li><a href="#">活动</a></li>
+                </ul>
+            </div>
+            <div class="col-4" >
+                <div class="navRight">
+                    <label for="inputText"></label>
+                    <input type="text" class="form-control" name="inputText" id="inputText">
+                    <a href="#">登录</a>
+                    <a href="#">注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--主导航栏  end-->
+
+<!--主导航栏滚动时固定  start-->
+<div id="maiBgColorFixed" class="maiBgColor">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <ul class="topBarText">
+                    <li><a href="./index.html"><img src="./img/logo1.png" class="logo" alt="" title=""></a></li>
+                    <li><a href="./index.html">首页</a></li>
+                    <li><a href="./channel.html">频道</a></li>
+                    <li><a href="#">自制</a></li>
+                    <li><a href="./article.html">幕后</a></li>
+                    <li><a href="#">专题</a></li>
+                    <li><a href="#">活动</a></li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <div class="navRight">
+                    <label for="inputText"></label>
+                    <input type="text" class="form-control" name="inputText" id="inputTextFixed">
+                    <a href="#">登录</a>
+                    <a href="#">注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--主导航栏滚动时固定  end-->
+
+<!--轮播图 start-->
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="#"><img data-lazy-src="./img/indexBanner/banner.jpg" alt=""></a>
+        </div>
+        <div class="carousel-item">
+            <a href="#"><img data-lazy-src="./img/indexBanner/banner1.jpg" alt=""></a>
+        </div>
+        <div class="carousel-item">
+            <a href="#"><img data-lazy-src="./img/indexBanner/banner2.jpg" alt=""></a>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+<!--轮播图 end-->
+
+
+<!--主体内容 start-->
+<div class="mainContainerLeft">
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <ul class="nav nav-tabs topTab">
+                    <li class="nav-item"><a class="nav-link active" href="#">最新推荐</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">热门排行</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">星级精选</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">随便看看</a></li>
+                </ul>
+                <div class="mainLeftList">
+                    <div class="mainLeftImg">
+                        <a href="#">
+                            <img data-lazy-src="./img/videoListImg/1.jpg" class="img-responsive" alt="" width="300" height="200">
+                        </a>
+                    </div>
+                    <div class="mainLeftDes">
+                       <h5>像科比一样努力《最后再休息，不要躺在半路》</h5>
+                       <p>这rap很溜啊这rap很溜啊这rap很溜啊</p>
+                        <p class="time">17小时前</p>
+                    </div>
+                </div>
+                <div class="mainLeftList">
+                    <div class="mainLeftImg">
+                        <a href="#">
+                            <img data-lazy-src="./img/videoListImg/2.jpg" class="img-responsive" alt="Cinque Terre" width="300" height="200">
+                        </a>
+                    </div>
+                    <div class="mainLeftDes">
+                        <h5>华裔编剧超搞笑打油诗《三分钟看完67集权游》</h5>
+                        <p>这rap很溜啊这rap很溜啊这rap很溜啊</p>
+                        <p class="time">17小时前</p>
+                    </div>
+                </div>
+                <div class="mainLeftList">
+                    <div class="mainLeftImg">
+                        <a href="#">
+                            <img data-lazy-src="./img/videoListImg/3.jpg" class="img-responsive" alt="Cinque Terre" width="300" height="200">
+                        </a>
+                    </div>
+                    <div class="mainLeftDes">
+                        <h5>好厉害的广告《我的不意外家庭》</h5>
+                        <p>出门等于出意外？</p>
+                        <p class="time">17小时前</p>
+                    </div>
+                </div>
+                <div class="mainLeftList">
+                    <div class="mainLeftImg">
+                        <a href="#">
+                            <img data-lazy-src="./img/videoListImg/4.jpg" class="img-responsive" alt="Cinque Terre" width="300" height="200">
+                        </a>
+                    </div>
+                    <div class="mainLeftDes">
+                        <h5>欧洲电影节获奖定格动画《黑暗森林夜曲》</h5>
+                        <p>夜晚是人性秘密的交换场</p>
+                        <p class="time">17小时前</p>
+                    </div>
+                </div>
+                <div class="mainLeftList">
+                    <div class="mainLeftImg">
+                        <a href="#">
+                            <img data-lazy-src="./img/videoListImg/5.jpg" class="img-responsive" alt="Cinque Terre" width="300" height="200">
+                        </a>
+                    </div>
+                    <div class="mainLeftDes">
+                        <h5>你必须知道的五件事:今天，我们该如何讨论“性侵”</h5>
+                        <p>不要伤害别人，做个好人</p>
+                        <p class="time">2019-2-4</p>
+                    </div>
+                </div>
+                <div class="mainLeftList">
+                    <div class="mainLeftImg">
+                        <a href="#">
+                            <img data-lazy-src="./img/videoListImg/6.jpg" class="img-responsive" alt="Cinque Terre" width="300" height="200">
+                        </a>
+                    </div>
+                    <div class="mainLeftDes">
+                        <h5>本月好看的大片都在这了 《4月电影推荐混剪》</h5>
+                        <p>快来吃下这口安利</p>
+                        <p class="time">2019-2-1</p>
+                    </div>
+                </div>
+                <div class="mainLeftList">
+                    <div class="mainLeftImg">
+                        <a href="#">
+                            <img data-lazy-src="./img/videoListImg/7.jpg" class="img-responsive" alt="Cinque Terre" width="300" height="200">
+                        </a>
+                    </div>
+                    <div class="mainLeftDes">
+                        <h5>艾伦的建议《人生最可怕的不是没人喜欢你》</h5>
+                        <p>Stay True to Yourself</p>
+                        <p class="time">2019-1-6</p>
+                    </div>
+                </div>
+                <div class="mainLeftList">
+                    <div class="mainLeftImg">
+                        <a href="#">
+                            <img data-lazy-src="./img/videoListImg/8.jpg" class="img-responsive" alt="Cinque Terre" width="300" height="200">
+                        </a>
+                    </div>
+                    <div class="mainLeftDes">
+                        <h5>日本感人咖啡广告《每个人都在开长途车》</h5>
+                        <p>坚持，再坚持一下，一切柳暗花明</p>
+                        <p class="time">2019-1-3</p>
+                    </div>
+                </div>
+                <div class="paginationBox">
+                    <ul class="pagination">
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                        <li class="page-item"><a class="page-link" href="#">7</a></li>
+                        <li class="page-item"><a class="page-link" href="#">尾页</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="downLoad">
+                    <img src="./img/indexRight/downLoding.png" alt="">
+                </div>
+                <div class="channel">
+                    <p class="channelTitle">热门频道</p>
+                    <div class="channelCon">
+                        <a href="#"><span>电影自习室</span></a>
+                        <a href="#"><span>创意</span></a>
+                        <a href="#"><span>旅行</span></a>
+                        <a href="#"><span>广告</span></a>
+                        <a href="#"><span>爱情</span></a>
+                        <a href="#"><span>运动</span></a>
+                        <a href="#"><span>励志</span></a>
+                        <a href="#"><span>科幻</span></a>
+                    </div>
+                </div>
+                <div class="channel">
+                    <p class="channelTitle">热门活动</p>
+                    <div class="hotImgList">
+                        <a href="#"><img src="./img/hotImg/1.jpg" alt=""></a>
+                        <a href="#"><img src="./img/hotImg/2.jpg" alt=""></a>
+                        <a href="#"><img src="./img/hotImg/3.jpg" alt=""></a>
+                        <a href="#"><img src="./img/hotImg/4.jpg" alt=""></a>
+                        <a href="#"><img src="./img/hotImg/5.jpg" alt=""></a>
+                        <a href="#"><img src="./img/hotImg/6.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="downLoad">
+                    <img src="./img/indexRight/2.jpg" alt="">
+                </div>
+                <div class="channel">
+                    <p class="channelTitle">新片场服务</p>
+                    <div class="sever">
+                        <p><a href="#">影视技能/知识提升</a></p>
+                        <p><a href="#">音频/视频素材库</a></p>
+                        <p><a href="#">出品发行作品</a></p>
+                    </div>
+                </div>
+                <div class="channel">
+                    <p class="channelTitle">关于我们</p>
+                    <div class="aboutUs">
+                        <p>关注场库微信账号，每天一部精彩短片</p>
+                        <p><img src="./img/indexRight/aboutUs.png" alt=""></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--主体内容 end-->
+
+<!--脚部 start-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>
+                    <a href="#">客户端</a>
+                    <a href="#">媒体报道</a>
+                    <a href="#">合作推广</a>
+                    <a href="#">关于我们</a>
+                    <a href="#">名人唐</a>
+                </p>
+                <p>Copyright © 2011-2018 场库 京ICP备14003808号-5 京公网安备11010102002904号</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--脚部 end-->
+
+
+<script src="./js/jquery-3.4.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/EasyLazyload.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>

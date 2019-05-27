@@ -1,0 +1,141 @@
+.categoryName{
+    font-size: 1.4rem;
+    color: #666;
+    margin: 1.4rem 0;
+}
+.channelList,.channeChildList{
+    position: relative;
+    margin-bottom: 2rem;
+}
+.channelList p{
+    /*margin-bottom: 0;*/
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /*text-align: center;*/
+    font-weight: 600;
+    color:white;
+}
+.moveLeft{
+    overflow: hidden;
+}
+.channelList img{
+    transition: All 0.4s ease-in-out;
+    width:100%;
+    height: auto;
+}
+.channelList img:hover{
+    transform: scale(1.2);
+}
+
+
+/*主导航栏固定 start*/
+#channelBgColor{
+    position: static;
+    z-index: 111;
+    background: rgba(249,249,249,0.97);
+    top:0;
+    width:100%;
+    height: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 1px 4px;
+}
+#channelBgColor .topBarText,#maiBgColor .navRight{
+    line-height: 64px;
+}
+#channelBgColor .logo{
+    width:100px;
+}
+#channelBgColor a{
+    color:#3a3a3a;
+    font-size: .9rem;
+}
+#channelBgColor a:hover{
+    color:black;
+}
+.navRight{
+    text-align: right;
+    line-height: 64px;
+}
+.navRight>a{
+    margin-left:2%;
+}
+.navRight .form-control{
+    display: inline-block;
+    width: 50%;
+    padding:.275rem .75rem;
+    background: rgba(241,241,241,.2);
+    line-height: 1.4;
+}
+
+
+/*频道分类列表页面*/
+.channeChildList{
+    border-radius: 10px;
+    margin:2% 0;
+}
+.channeChildList>div{
+    border:1px solid #e8e8e8;
+    border-radius: 4px;
+}
+.channeChildList>div:hover{
+    box-shadow: 0 0 4px #b9b8b8;
+}
+.channeChildList img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px 4px 0 0;
+}
+.videoTitle{
+    padding:3%;
+    background-color: white;
+}
+.videoTitle h6{
+    font-weight: 600;
+}
+.videoTitle p{
+    font-size: 13px;
+}
+.videoTitle h6,.videoTitle p{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    margin:10px 0;
+}
+.channeChildList a{
+    color:#3a3a3a;
+}
+
+
+/*分类播放页*/
+.article video{
+    width:100%;
+}
+[poster]{
+    width: 200%;
+    height: 100%;
+}
+.article p{
+    font-size: 16px;
+    line-height: 36px;
+    text-indent: 2rem;
+    margin:1rem;
+}
+.descriptionText{
+    width: 100%;
+    height: 30px;
+    background: rgb(241,241,241);
+    padding:0 3rem;
+    /*margin:3rem 0;*/
+}
+.descriptionText p{
+    text-align: center;
+    color:#999;
+    font-size: 14px;
+    line-height: 30px;
+}
+.hotList{
+    width:25%;
+    float: left;
+    padding:0 15px;
+}
