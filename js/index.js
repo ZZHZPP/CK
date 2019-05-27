@@ -3,14 +3,6 @@ lazyLoadInit({
     offsetBottom:0,
     offsetTopm:0,
     showTime:1000,
-    // onLoadBackStart:function(i,e){
-    //     console.log("onLoadBackStart:"+i);
-    // }
-    // ,onLoadBackEnd:function(i,e){
-    //     console.log("onLoadBackEnd:"+i);
-    //     $(this).removeAttr("data-lazy-src");
-    //
-    // }
 });
 
 // 判断滚轮滚动，显示不同样式导航
